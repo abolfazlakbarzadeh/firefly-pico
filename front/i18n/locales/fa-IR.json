@@ -56,6 +56,7 @@
   "amount": "مبلغ",
   "amount_min": "حداقل مبلغ",
   "amount_max": "حداکثر مبلغ",
+  "new_transaction": "تراکنش جدید",
   "toolbar": {
     "home": "خانه",
     "transactions": "تراکنش‌ها",

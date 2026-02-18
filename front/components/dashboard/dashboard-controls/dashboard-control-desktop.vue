@@ -1,5 +1,5 @@
 <template>
-  <div class="flex-center-vertical gap-2">
+  <div class="dashboard-control-desktop flex-center-vertical gap-2">
     <div class="simple-button">
       <app-icon :icon="TablerIconConstants.leftArrow" @click.stop="onPreviousMonth" :size="22" class="cursor-pointer" />
     </div>

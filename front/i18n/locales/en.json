@@ -56,6 +56,7 @@
   "amount": "Amount",
   "amount_min": "Amount min",
   "amount_max": "Amount max",
+  "new_transaction": "New Transaction",
   "toolbar": {
     "home": "Home",
     "transactions": "Transactions",

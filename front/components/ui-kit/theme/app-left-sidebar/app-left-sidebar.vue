@@ -14,8 +14,8 @@
     <nav class="sidebar-nav">
       <div class="nav-section">
         <div class="section-label">Main</div>
-        <app-left-sidebar-page label="Dashboard" :icon="TablerIconConstants.dashboard" :route="RouteConstants.ROUTE_DASHBOARD" />
-        <app-left-sidebar-page label="Transactions" :icon="TablerIconConstants.transaction" :route="RouteConstants.ROUTE_TRANSACTION_LIST" />
+        <app-left-sidebar-page :label="$t('dashboard.title')" :icon="TablerIconConstants.dashboard" :route="RouteConstants.ROUTE_DASHBOARD" />
+        <app-left-sidebar-page :label="$t('transaction.title_list')" :icon="TablerIconConstants.transaction" :route="RouteConstants.ROUTE_TRANSACTION_LIST" />
       </div>
 
       <div class="nav-section">

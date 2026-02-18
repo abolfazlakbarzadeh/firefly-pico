@@ -49,7 +49,7 @@ body {
 }
 
 .van-cell-group-title {
-    /*text-align: center;*/
+    text-align: start;
     margin: 15px !important;
     font-size: 14px;
     font-weight: 600;
@@ -87,13 +87,17 @@ body {
 
 .app-button-save.desktop {
     position: fixed !important;
-    right: 50px;
     bottom: 50px !important;
-    /*right: 20px;*/
     z-index: 2;
     width: 200px;
     /*max-width: var(--max-device-width);*/
     /*margin: 0 auto;*/
+    &.rtl {
+        left: 20px;
+    }
+    &.ltr {
+        right: 20px;
+    }
 }
 
 
@@ -852,6 +856,7 @@ body {
 }
 
 .app-toolbar-title {
+    text-align: start;
     font-weight: 700;
 }
 
@@ -960,6 +965,10 @@ body {
 
 .van-collapse-item__content {
     /*background: transparent !important;*/
+}
+
+.van-cell__title {
+    text-align: start !important;
 }
 
 

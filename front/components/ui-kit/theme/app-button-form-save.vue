@@ -11,6 +11,7 @@
 <script setup>
 import { animateSaveButton } from '~/utils/AnimationUtils.js'
 const appStore = useAppStore()
+const { locale } = useI18n()
 
 const props = defineProps({
   label: {},
@@ -28,12 +29,16 @@ const style = computed(() => {
     bottom: isKeyboardVisible.value ? bottomWithKeyboard : bottomWithoutKeyboard,
   }
 })
-
-const classComputed = computed(() => ({
-  'app-button-save  flex-center-vertical gap-2': true,
-  mobile: !appStore.isDesktopLayout,
-  desktop: appStore.isDesktopLayout,
-}))
+const classComputed = computed(() => {
+  const isRTL = ['ar', 'fa-IR'].includes(locale.value)
+  return {
+    'app-button-save  flex-center-vertical gap-2': true,
+    mobile: !appStore.isDesktopLayout,
+    desktop: appStore.isDesktopLayout,
+    rtl: isRTL,
+    ltr: !isRTL
+  }
+})
 
 onMounted(async () => {
   await animateSaveButton()

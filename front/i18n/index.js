@@ -9,7 +9,8 @@ export const languageCode = {
   german_german: 'de-DE',
   swiss_german: 'de-CH',
   french: 'fr-FR',
-  russian: 'ru-RU'
+  russian: 'ru-RU',
+  persian: 'fa-IR'
 }
 
 export const supportedLanguages = [
@@ -66,5 +67,11 @@ export const supportedLanguages = [
     file: 'ru-RU.json',
     displayName: 'Русский',
     icon: 'svgo-flags-ru',
+  },
+  {
+    code: languageCode.persian,
+    file: 'fa-IR.json',
+    displayName: 'فارسی',
+    icon: 'svgo-flags-ir',
   },
 ]

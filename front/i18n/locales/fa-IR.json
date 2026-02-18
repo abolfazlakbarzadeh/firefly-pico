@@ -1,0 +1,373 @@
+{
+  "new": "جدید",
+  "save": "ذخیره",
+  "delete": "حذف",
+  "add": "افزودن",
+  "search": "جستجو",
+  "success": "موفق",
+  "search_placeholder": "جستجو...",
+  "clone": "کپی کردن",
+  "not_set": "تنظیم نشده",
+  "loading": "در حال بارگذاری...",
+  "items": "آیتم‌ها",
+  "name": "نام",
+  "code": "کد",
+  "symbol": "نماد",
+  "description": "توضیحات",
+  "notes": "یادداشت‌ها",
+  "ok": "تأیید",
+  "copy": "کپی",
+  "paste": "جای‌گذاری",
+  "copied": "کپی شد",
+  "pasted": "جای‌گذاری شد",
+  "status": "وضعیت",
+  "transaction_type": "نوع تراکنش",
+  "without": "بدون",
+  "template": "قالب",
+  "templates": "قالب‌ها",
+  "category": "دسته‌بندی",
+  "categories": "دسته‌بندی‌ها",
+  "category_select": "یک دسته‌بندی انتخاب کنید",
+  "tag": "برچسب",
+  "tags": "برچسب‌ها",
+  "todo": "انجام‌دادنی",
+  "tags_select": "برچسب‌ها را انتخاب کنید",
+  "budget": "بودجه",
+  "budgets": "بودجه‌ها",
+  "budget_select": "یک بودجه انتخاب کنید",
+  "attachment": "پیوست",
+  "attachments": "پیوست‌ها",
+  "account": "حساب",
+  "accounts": "حساب‌ها",
+  "total": "مجموع",
+  "select_is_empty": "چیزی انتخاب نشده...",
+  "active": "فعال",
+  "calendar": "تقویم",
+  "date": "تاریخ",
+  "date_after": "تاریخ بعد از",
+  "date_before": "تاریخ قبل از",
+  "sub_month": "۱- ماه",
+  "this_month": "این ماه",
+  "add_month": "۱+ ماه",
+  "sub_day": "۱- روز",
+  "today": "امروز",
+  "add_day": "۱+ روز",
+  "day_of_week": "روز هفته",
+  "amount": "مبلغ",
+  "amount_min": "حداقل مبلغ",
+  "amount_max": "حداکثر مبلغ",
+  "toolbar": {
+    "home": "خانه",
+    "transactions": "تراکنش‌ها",
+    "extras": "موارد بیشتر",
+    "settings": "تنظیمات"
+  },
+  "filters": {
+    "clear": "پاک کردن",
+    "applied_filters": "فیلترهای اعمال‌شده",
+    "apply_filters": "اعمال فیلترها",
+    "transaction_filters": "فیلترهای تراکنش"
+  },
+  "transaction": {
+    "title_list": "لیست تراکنش‌ها",
+    "split_transaction": "تقسیم تراکنش",
+    "assistant": "دستیار",
+    "assistant_format": "فرمت = [قالب / برچسب؟] [مبلغ؟] [توضیحات؟]",
+    "assistant_tutorial_title": "دستیار تراکنش",
+    "assistant_tutorial_body": "<p>با تایپ متن در اینجا (یا استفاده از دیکته‌ی گوشی) به راحتی تراکنش ایجاد کنید.</p>\n<p>فرمت مورد انتظار:<br> <b>[جستجو]&nbsp; [مبلغ؟]&nbsp; [توضیحات؟]&nbsp; [انجام‌دادنی؟]</b></p>\n<p>۱. <b>جستجو</b> در نام برچسب‌ها، دسته‌بندی‌ها و قالب‌های تراکنش انجام می‌شود. پشتیبانی از وارد کردن بخشی از نام و حتی غلط تایپی.<br><code> elct => electricity</code></p>\n<p>۲. <b>مبلغ</b> از عبارات ریاضی پشتیبانی می‌کند. اعداد جدا شده با فاصله به‌صورت خودکار جمع می‌شوند.</p>\n<p>۳. <b>توضیحات</b> اختیاری است. برای جایگزینی نام پیش‌فرض برچسب استفاده کنید.</p>\n<p>۴. <b>انجام‌دادنی</b> با افزودن یک رشته سفارشی (پیش‌فرض \"!!\") برچسب «انجام‌دادنی» تعریف‌شده توسط کاربر را اضافه می‌کند. این مقدار در «تنظیمات» قابل تغییر است.</p>\n\n<p><b>مثال‌ها</b><br>\n\"electricity\" = برچسب<br>\n\"swimming\" = قالب <br><br>\n\n<code>\nelectricity 23<br> \nelc 12*2+33<br> \nelc 12+2*3 توضیحات سفارشی<br> \nelc 25 !!<br>\nswim<br> \n\n</code>\n</p>\n\n<p>۵. در بالا-راست یک انتخابگر <b>ارز</b> وجود دارد که می‌توانید آن را در لحظه تغییر دهید یا از طریق «تنظیمات» -> «دستیار» به‌صورت پیش‌فرض تنظیم کنید. وقتی از آن استفاده می‌کنید، <b>مبلغ</b> به آن ارز تفسیر شده و مقدار نهایی به ارز حساب انتخابی شما تبدیل می‌شود. این ویژگی هنگام سفر به خارج بسیار مفید است.</p>",
+    "type": {
+      "expense": "هزینه",
+      "income": "درآمد",
+      "transfer": "انتقال"
+    },
+    "source_account": "حساب مبدأ",
+    "destination_account": "حساب مقصد",
+    "make_template": "ساخت قالب",
+    "configure_fields": "پیکربندی فیلدها",
+    "title_clone_transaction": "کپی تراکنش",
+    "title_edit_transaction": "ویرایش تراکنش",
+    "title_add_transaction": "افزودن تراکنش"
+  },
+  "settings": {
+    "settings_title": "تنظیمات",
+    "general": "عمومی",
+    "required_field": "این فیلد الزامی است",
+    "settings_saved": "تنظیمات ذخیره شد",
+    "setup_entry": "راه‌اندازی",
+    "setup": {
+      "title": "راه‌اندازی",
+      "pico_backend_url": "آدرس سرور Pico",
+      "sync_settings_via_token": "همگام‌سازی تنظیمات بین دستگاه‌ها از طریق توکن",
+      "days_between_sync": "روزهای بین همگام‌سازی کامل «موارد بیشتر»",
+      "loaded_data_stats": "آمار داده‌های بارگذاری‌شده",
+      "account": "حساب",
+      "categories": "دسته‌بندی‌ها",
+      "tags": "برچسب‌ها",
+      "templates": "قالب‌ها",
+      "budgets": "بودجه‌ها",
+      "last_sync": "آخرین همگام‌سازی",
+      "verifying": "در حال تأیید...",
+      "invalid_endpoint": "آدرس وارد شده صحیح نیست.",
+      "invalid_token": "توکن وارد شده صحیح نیست یا منقضی شده است.",
+      "fetching": "در حال دریافت..."
+    },
+    "ui_entry": "رابط کاربری",
+    "ui": {
+      "theme": "پوسته",
+      "title": "تنظیمات رابط کاربری",
+      "show_animations": "نمایش انیمیشن‌ها",
+      "reset_forms_after_creation": "بازنشانی فرم‌ها پس از ایجاد",
+      "transaction_list": "لیست تراکنش‌ها",
+      "select_hero_icons": "انتخاب آیکون‌های Hero برای نمایش",
+      "hero_icons": "آیکون‌های Hero",
+      "right_side_card": "(کارت سمت راست در لیست)",
+      "dark": "تیره",
+      "light": "روشن",
+      "pages": {
+        "new_transacation": "تراکنش جدید",
+        "transacation_list": "لیست تراکنش‌ها",
+        "dashboard": "داشبورد"
+      }
+    },
+    "assistant_entry": "دستیار",
+    "assistant": {
+      "title": "تنظیمات دستیار",
+      "substring_todo_tag": "رشته‌ای که برچسب انجام‌دادنی را اضافه می‌کند",
+      "currency": "بخش مبلغ در متن دستیار به‌عنوان ارز خارجی این نوع تفسیر خواهد شد"
+    },
+    "formatting_entry": "قالب‌بندی",
+    "formatting": {
+      "title": "تنظیمات قالب‌بندی",
+      "numbers_format": "قالب‌بندی اعداد",
+      "select_numbers_format": "قالب‌بندی دلخواه اعداد را انتخاب کنید",
+      "date_format": "فرمت تاریخ",
+      "select_date_format": "یک فرمت تاریخ انتخاب کنید",
+      "first_day_of_month": "اولین روز ماه",
+      "select_first_day_of_month": "اولین روز ماه را انتخاب کنید",
+      "casing": "حروف‌نویسی",
+      "force_transaction_description_lowercase": "اجبار به حروف کوچک در توضیحات تراکنش",
+      "force_account_name_lowercase": "اجبار به حروف کوچک در نام حساب",
+      "force_category_name_lowercase": "اجبار به حروف کوچک در نام دسته‌بندی",
+      "force_tag_name_lowercase": "اجبار به حروف کوچک در نام برچسب",
+      "strip_accents": "حذف لهجه‌ها"
+    },
+    "transactions_entry": "تراکنش‌ها",
+    "transactions": {
+      "title": "تنظیمات تراکنش",
+      "default_form_values_entry": "مقادیر پیش‌فرض فرم",
+      "default_list_filters_entry": "فیلترهای پیش‌فرض لیست",
+      "amount_increment_buttons": "دکمه‌های افزایش مبلغ",
+      "configure_form_fields": "پیکربندی فیلدهای فرم",
+      "configure_list_fields": "پیکربندی فیلدهای لیست",
+      "watchers": "ناظران",
+      "watchers_info": "فقط هنگام ایجاد تراکنش اعمال می‌شود",
+      "copy_tag_to_description": "وقتی برچسبی انتخاب می‌کنم آن را در توضیحات کپی کن",
+      "copy_tag_to_category": "وقتی برچسبی انتخاب می‌کنم آن را در دسته‌بندی کپی کن",
+      "copy_category_to_description": "وقتی دسته‌بندی‌ای انتخاب می‌کنم آن را در توضیحات کپی کن",
+      "quick_amounts": {
+        "title": "مبالغ سریع تراکنش",
+        "value": "مقدار"
+      },
+      "list_fields": {
+        "title": "تنظیم فیلدهای لیست",
+        "fields": "فیلدها",
+        "select_hero_icons": "انتخاب آیکون‌های Hero برای نمایش",
+        "hero_icons": "آیکون‌های Hero",
+        "right_side_card": "(کارت سمت راست در لیست)"
+      },
+      "form_fields": {
+        "title": "تنظیم فیلدهای فرم",
+        "always_show_foreign_currency": "همیشه فیلد ارز خارجی را نشان بده"
+      },
+      "default_list_filters": {
+        "title": "فیلترهای پیش‌فرض لیست تراکنش‌ها",
+        "info": "توصیه می‌شود از این فیلترها تنها در صورتی استفاده کنید که تعداد تراکنش‌های زیادی دارید که باعث کندی بارگذاری لیست می‌شود. مثلاً نمایش تراکنش‌های بعد از ابتدای سال جاری."
+      },
+      "default_form_values": {
+        "title": "مقادیر پیش‌فرض تراکنش جدید",
+        "default_source_account": "حساب مبدأ پیش‌فرض",
+        "default_destination_account": "حساب مقصد پیش‌فرض",
+        "default_category": "دسته‌بندی پیش‌فرض",
+        "default_tags": "برچسب‌های پیش‌فرض (فقط از پیش انتخاب‌شده)",
+        "auto_tags": "برچسب‌های خودکار (پس از ایجاد اضافه می‌شوند)",
+        "foreign_currency": "ارز خارجی برای هزینه‌ها"
+      }
+    },
+    "about_entry": "درباره",
+    "version": "نسخه",
+    "new_version_available": "نسخه جدید در دسترس است",
+    "dashboard_entry": "داشبورد",
+    "dashboard": {
+      "title": "تنظیمات داشبورد",
+      "cards_order": "ترتیب کارت‌های داشبورد",
+      "config": "پیکربندی",
+      "show_empty_accounts": "نمایش حساب‌های با مبلغ ۰",
+      "show_decimal_places": "نمایش اعشار",
+      "transaction_exclusion": "حذف تراکنش",
+      "cards": {
+        "accounts_summary": "خلاصه حساب‌ها",
+        "expenses_this_week": "هزینه‌های این هفته",
+        "transactions_summary": "خلاصه تراکنش‌ها",
+        "expenses_by_tag": "هزینه‌ها بر اساس برچسب",
+        "expenses_by_category": "هزینه‌ها بر اساس دسته‌بندی",
+        "transfers_by_tag": "انتقال‌ها بر اساس برچسب",
+        "transfers_by_category": "انتقال‌ها بر اساس دسته‌بندی",
+        "todo_transactions": "تراکنش‌های انجام‌دادنی"
+      }
+    },
+    "token": {
+      "label": "توکن دسترسی شخصی",
+      "placeholder": "توکن شخصی"
+    }
+  },
+  "about": {
+    "title": "درباره",
+    "info": "اطلاعات",
+    "items_list_deleted": "- آیتم‌های لیست را می‌توان با کشیدن به صورت افقی حذف کرد",
+    "list_updated": "- لیست را می‌توان با کشیدن به پایین برای به‌روزرسانی، رفرش کرد",
+    "popups_dismissed": "- پنجره‌های باز شده از پایین را می‌توان با کشیدن به پایین بست",
+    "dashboard_clickable": "- در داشبورد بیشتر آیکون‌ها و میله‌های نمودار قابل کلیک هستند.",
+    "credits": "اعتبارات",
+    "developed_by": "- توسعه‌داده‌شده توسط Mihai Cioraneanu - <a href=\"{url}\">GitHub</a>",
+    "using_laravel_nuxt": "- با استفاده از <a href=\"https://laravel.com/\" target=\"_blank\">Laravel</a> و <a href=\"https://nuxt.com/\" target=\"_blank\">Nuxt</a>",
+    "consuming_firefly": "- استفاده از REST API <a href=\"https://www.firefly-iii.org\" target=\"_blank\">Firefly III</a>",
+    "ui_theme_vant": "- با پوسته رابط کاربری مبتنی بر <a href=\"https://vant-ui.github.io\" target=\"_blank\">Vant</a>",
+    "exchange_rate_api": "- نرخ ارز توسط <a href=\"https://www.exchangerate-api.com\">Exchange Rate API</a>",
+    "iconpacks_tabler": "- مجموعه آیکون: <a href=\"https://tabler.io/icons\" target=\"_blank\">Tabler Icons</a>",
+    "iconpacks_fluent": "- مجموعه آیکون: <a href=\"https://github.com/microsoft/fluentui\" target=\"_blank\">Fluent UI System Icons</a>",
+    "iconpacks_circle_avatar": "- مجموعه آیکون: <a href=\"https://www.svgrepo.com/author/Laura%20Reen\" target=\"_blank\">Circle Avatar Vectors by Laura Reen</a>",
+    "iconpacks_svg_repo": "- مجموعه آیکون: <a href=\"https://www.svgrepo.com/\" target=\"_blank\">SVG Repo</a>",
+    "iconpacks_freepik": "- مجموعه آیکون: <a href=\"https://www.freepik.com/\" target=\"_blank\">Freepik</a>",
+    "illustrations_undraw": "- تصویرسازی‌ها: <a href=\"https://undraw.co\" target=\"_blank\">unDraw</a>"
+  },
+  "page_select": {
+    "label": "صفحه شروع",
+    "title": "صفحه شروع خود را انتخاب کنید"
+  },
+  "language_select": {
+    "title": "زبان خود را انتخاب کنید",
+    "label": "زبان"
+  },
+  "day_select": {
+    "label": "اولین روز هفته",
+    "title": "اولین روز هفته را انتخاب کنید"
+  },
+  "account_select": {
+    "title": "یک حساب انتخاب کنید",
+    "asset_accounts": "حساب‌های دارایی",
+    "expense_accounts": "حساب‌های هزینه",
+    "income_accounts": "حساب‌های درآمد",
+    "liability_accounts": "حساب‌های بدهی",
+    "no_accounts": "حسابی وجود ندارد"
+  },
+  "currency_select": {
+    "title": "یک ارز انتخاب کنید"
+  },
+  "validation": {
+    "required": "این فیلد الزامی است"
+  },
+  "primary": "اصلی",
+  "classification": "طبقه‌بندی",
+  "extra": "بیشتر",
+  "exchange_rates": "نرخ‌های ارز",
+  "currency": "ارز",
+  "currencies": "ارزها",
+  "show_transactions": "نمایش تراکنش‌ها",
+  "icon": "آیکون",
+  "icon_select": "یک آیکون انتخاب کنید",
+  "icon_empty": "بدون آیکون",
+  "list": "لیست",
+  "percentage": "درصد",
+  "repeater_no_values": "مقداری تنظیم نشده. از دکمه «افزودن» استفاده کنید.",
+  "account_page": {
+    "title_add": "افزودن حساب",
+    "title_edit": "ویرایش حساب",
+    "adjust_balance": "تنظیم موجودی",
+    "account_type": "نوع",
+    "account_type_asset": "دارایی",
+    "account_type_revenue": "درآمد",
+    "account_type_expense": "هزینه",
+    "account_type_liability": "بدهی",
+    "account_type_cash": "نقد",
+    "account_role": "نقش",
+    "account_role_default": "پیش‌فرض",
+    "account_role_shared": "مشترک",
+    "account_role_savings": "پس‌انداز",
+    "account_role_credit_card": "کارت اعتباری",
+    "liability_type": "نوع بدهی",
+    "liability_direction": "ورود/خروج بدهی",
+    "include_net_worth": "در دارایی خالص لحاظ شود",
+    "visible_on_dashboard": "در داشبورد نمایش داده شود",
+    "balance": "موجودی"
+  },
+  "transaction_template_page": {
+    "title_add": "افزودن قالب",
+    "title_edit": "ویرایش قالب",
+    "extra_names": "نام‌های اضافی (قابل جستجو توسط دستیار):"
+  },
+  "tag_page": {
+    "title_add": "افزودن برچسب",
+    "title_edit": "ویرایش برچسب",
+    "parent_tag": "برچسب والد",
+    "mark_as_todo": "علامت‌گذاری به‌عنوان انجام‌دادنی",
+    "end_date": "تاریخ پایان"
+  },
+  "category_page": {
+    "title_add": "افزودن دسته‌بندی",
+    "title_edit": "ویرایش دسته‌بندی"
+  },
+  "currency_page": {
+    "title_add": "افزودن ارز",
+    "title_edit": "ویرایش ارز",
+    "decimal_places": "مکان‌های اعشار"
+  },
+  "budget_page": {
+    "title_add": "افزودن بودجه",
+    "title_edit": "ویرایش بودجه",
+    "spent": "هزینه‌شده",
+    "percent": "درصد",
+    "interval": "بازه",
+    "type": "نوع بودجه",
+    "period": "دوره بودجه"
+  },
+  "exchange_rate_page": {
+    "relative_to_usd": "نسبت به دلار آمریکا"
+  },
+  "dashboard": {
+    "title": "داشبورد",
+    "controls": "کنترل‌ها",
+    "account_total": "موجودی کل",
+    "expenses_week": "هزینه‌های این هفته",
+    "transactions_summary": {
+      "title": "خلاصه تراکنش‌ها",
+      "surplus": "مازاد",
+      "days_remaining": "روزهای باقی‌مانده",
+      "savings_summary": "خلاصه پس‌انداز"
+    },
+    "budget": {
+      "spent": "هزینه‌شده",
+      "budgeted": "بودجه‌بندی‌شده",
+      "remaining": "باقی‌مانده"
+    },
+    "expenses_by_tags": {
+      "title": "هزینه‌ها بر اساس برچسب",
+      "all_tags": "همه برچسب‌ها",
+      "one_root_tag": "یک برچسب ریشه"
+    },
+    "transfers_by_tags": {
+      "title": "انتقال‌ها بر اساس برچسب",
+      "all_tags": "همه برچسب‌ها",
+      "one_root_tag": "یک برچسب ریشه"
+    },
+    "expenses_by_categories": "هزینه‌ها بر اساس دسته‌بندی",
+    "transfers_by_categories": "انتقال‌ها بر اساس دسته‌بندی",
+    "configure_cards": "پیکربندی کارت‌ها"
+  },
+  "profile_page": {
+    "title": "لیست پروفایل‌ها",
+    "title_add": "افزودن پروفایل",
+    "info": "به سرعت بین تمام تنظیمات خود جابجا شوید",
+    "title_edit": "ویرایش پروفایل",
+    "tutorial_body": "<p>یک <b>پروفایل</b> مجموعه‌ای از تمام تنظیمات موجود در صفحات <code>تنظیمات</code> است.</p><br><p>می‌توانید چند پروفایل داشته باشید اما فقط یکی می‌تواند در هر لحظه فعال باشد. با <i>ضربه</i> بین آن‌ها جابجا شوید و با <i>ضربه دوتایی</i> یا <i>نگه‌داشتن</i> آن‌ها را ویرایش کنید.</p><br><p>یک مورد استفاده، داشتن چند مقدار پیش‌فرض برای <b>فرم تراکنش</b> است: یکی برای استفاده روزانه و یکی برای تعطیلات. پروفایل تعطیلات می‌تواند حساب مبدأ متفاوت داشته باشد یا برچسبی مانند «تعطیلات مرداد ۱۴۰۴» را به‌صورت خودکار اعمال کند. این کار مشاهده کل هزینه با آن برچسب را آسان می‌کند.</p>"
+  }
+}

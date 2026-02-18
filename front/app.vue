@@ -17,6 +17,7 @@ import AppLoading from '~/components/ui-kit/app-loading.vue'
 import profile from '~/models/Profile.js'
 import { setDefaultOptions } from 'date-fns'
 
+const { locale } = useI18n()
 let dataStore = useDataStore()
 let profileStore = useProfileStore()
 let appStore = useAppStore()
@@ -25,6 +26,10 @@ const theme = computed(() => (profileStore.darkTheme ? 'dark' : 'white'))
 const pwaColor = computed(() => (profileStore.darkTheme ? '#1c1c1e' : '#ffffff'))
 useHead({
   meta: [{ name: 'theme-color', content: pwaColor }],
+  htmlAttrs: {
+    dir: computed(() => ['fa-IR', 'ar', 'he'].includes(locale.value) ? 'rtl' : 'ltr'),
+    lang: locale
+  }
 })
 
 useResize()

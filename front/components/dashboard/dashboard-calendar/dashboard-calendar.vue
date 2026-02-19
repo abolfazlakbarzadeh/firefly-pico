@@ -1,6 +1,6 @@
 <template>
   <van-cell-group inset>
-    <dashboard-calendar-month :start="startDate" :end="endDate" />
+    <dashboard-calendar-switching :start="startDate" :end="endDate" />
   </van-cell-group>
 </template>
 

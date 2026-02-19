@@ -1492,4 +1492,6 @@ body {
     opacity: 1 !important;
 }
 
-
+.text-start {
+    text-align: start;
+}

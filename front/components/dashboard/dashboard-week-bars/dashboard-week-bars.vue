@@ -16,19 +16,23 @@ import { capitalize, get } from 'lodash'
 import RouteConstants from '~/constants/RouteConstants.js'
 import Transaction from '~/models/Transaction.js'
 import { getExcludedTransactionUrl } from '~/utils/DashboardUtils.js'
+import { computed } from 'vue'
+import { enUS, faIR } from 'date-fns/locale'
 
 const dataStore = useDataStore()
+const { locale } = useI18n()
 
 const barsList = computed(() => {
   const amountsList = Object.values(dataStore.dashboardExpenseByDay)
   const maxAmount = Math.max(...amountsList)
 
+  const calendarLocale = locale.value === 'fa-IR' ? faIR : enUS
   const daysList = eachDayOfInterval({
     start: subDays(new Date(), 7),
     end: startOfDay(new Date()),
   })
   return daysList.map((date) => {
-    const weekdayName = capitalize(format(date, 'E'))
+    const weekdayName = capitalize(format(date, 'E', { locale: calendarLocale }))
     const amount = get(dataStore.dashboardExpenseByDay, DateUtils.dateToString(date), 0)
     const percent = (amount / maxAmount) * 100
 
